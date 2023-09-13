@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randhir Pratap Singh</title>
+    <link rel="icon" href="img/rps.png" sizes="16*16">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script srmx="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav_bar">
+            <div class="logo">
+                <h1>Randhir Pratap Singh</h1>
+            </div>
+            <ul class="menu" id="menu">
+                <a href="#home" onclick="toggle()">
+                    <li>Home</li>
+                </a>
+                <a href="#about" onclick="toggle()">
+                    <li>About Me</li>
+                </a>
+                <a href="#what-i-do" onclick="toggle()">
+                    <li>What I do</li>
+                </a>
+                <a href="#skill" onclick="toggle()">
+                    <li>Skills</li>
+                </a>
+                <a href="#experiance" onclick="toggle()">
+                    <li>Experiance</li>
+                </a>
+                <a href="#project" onclick="toggle()">
+                    <li>Project</li>
+                </a>
+                <a href="#contact" onclick="toggle()">
+                    <li>Contact Me</li>
+                </a>
+                <a href="Randhir's_Resume.pdf" download="Randhir's_Resume" onclick="toggle()"><button type="button"
+                        class="btn  ml-4 reume">Resume <i class="fa fa-download ml-1"></i></button></a>
+            </ul>
+            <div class="menu_icon">
+                <i class="fa fa-bars" id="menu_open" onclick="toggleMenu()"></i>
+                <i class="fa fa-close close" id="menu_close" onclick="toggleMenuClose()"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid pb-5 pt-md-5  home_page sec_color" id="home">
+        <div class="row mx-md-5 py-3 ">
+            <div class="col-md-6 col-12 justify-content-center d-flex order-md-2">
+                <img src="img/randhir1.png" class="img-fluid banner_img" alt="My-pic">
+            </div>
+            <div class="col-md-6 col-12 order-md-1">
+                <h2 class="title">Hi, I'm Randhir</h2>
+                <p class="sub_title">and I'm a <span style="font-weight: 500; color: #1d9bc5;">Web Devloper</span></p>
+                <p>A passionate Web Developer 🚀 having a special interest in Frontend technologies and experience of
+                    building Web applications with JavaScript, ReactJS, NodeJS, ExpressJS and some other cool libraries
+                    and frameworks.
+                </p>
+                <a href="https://github.com/Randhir21" target="_blank"><button type="button"
+                        class="btn  ">View on Github</button></a>
+                <a href="https://www.linkedin.com/in/randhir-pratap-singh-b94210213/" target="_blank"><button
+                        type="button" class="btn  ml-4 "> View on LinkedIn</button></a>
+                <!-- <i class="fa fa-linkedin bg-dark p-1 "></i> -->
+            </div>
+
+        </div>
+    </section>
+    <section class="container-fluid py-5" id="about">
+        <h1 class="text-center mt-5">About Me</h1>
+        <div class="row mx-md-5 py-5">
+            <div class="col-md-6 col-12 justify-content-center d-flex">
+                <img src="img/about-img.jpg" class="img-fluid banner_img1" alt="My-pic">
+            </div>
+            <div class="col-md-6 col-12 ">
+
+                <p class="mt-5 pl-3">I am a highly skilled web developer with an <b>MCA degree from JECRC University</b>. I
+                    thrive on taking on challenges and finding innovative solutions. Over the past year, I have honed my
+                    expertise in building web applications using technologies such as JavaScript, ReactJS, NodeJS, and
+                    ExpressJS, as well as various other libraries and frameworks. My journey in the IT field includes
+                    valuable experiences, including 6 months at <b>Digital Rubix Ads Agency</b> and another 6 months at <b>Itio
+                        Inovex Company</b> . I am committed to pushing the boundaries of web development to create
+                    cutting-edge solutions.
+                </p>
+               
+
+
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid sec_color py-5" id="what-i-do">
+        <h1 class="text-center mt-4">What I Do?</h1>
+        <div class="row mx-md-5 py-5">
+            <div class="col-md-4 col-12 mt-3">
+                <div class="custom_card px-2 py-3  align-items-center ">
+                    <i class="fa fa-check mx-2 cart_icon"></i>
+                    <p class="ml-2 cart_content">Prepare variety of different designs, layouts and websites</p>
+                </div>
+            </div>
+            <div class="col-md-4  col-12 mt-3">
+                <div class="custom_card px-2 py-3  align-items-center ">
+                    <i class="fa fa-check mx-2 cart_icon"></i>
+                    <p class="ml-2 cart_content">Identify issues, analyzed information and provided solutions to
+                        problems</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mt-3">
+                <div class="custom_card px-2 py-3  align-items-center ">
+                    <i class="fa fa-check mx-2 cart_icon"></i>
+                    <p class="ml-2 cart_content">I can create a websites using HTML, CSS, JavaScript, ReactJS, NodeJS,
+                        Express ect.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mt-3">
+                <div class="custom_card px-2 py-3  align-items-center ">
+                    <i class="fa fa-check mx-2 cart_icon"></i>
+                    <p class="ml-2 cart_content">Provide Full Stack website development using MERN.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mt-3">
+                <div class="custom_card px-2 py-3  align-items-center ">
+                    <i class="fa fa-check mx-2 cart_icon"></i>
+                    <p class="ml-2 cart_content">Provide UI design using Adobe Photoshop and Figma.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mt-3">
+                <div class="custom_card px-2 py-3  align-items-center  ">
+                    <i class="fa fa-check mx-2 cart_icon"></i>
+                    <p class="ml-2 cart_content">Actively listen to customers' requests, confirming full understanding
+                        before addressing concerns</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid  py-5" id="skill">
+        <h1 class="text-center mt-4">Skills 🔥</h1>
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="HTML">
+                    <img src="img/html.svg" alt="html_icon">
+                    <div class="progress_bar html ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="CSS">
+                    <img src="img/css.svg" alt="html_icon">
+                    <div class="progress_bar css ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="JavaScript">
+                    <img src="img/js.svg" alt="html_icon">
+                    <div class="progress_bar js ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="Figma">
+                    <img src="img/figma.svg" alt="html_icon">
+                    <div class="progress_bar figma ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="Adobe-Photoshop">
+                    <img src="img/adobe-photoshop-icon.svg" alt="html_icon">
+        
+                    <div class="progress_bar photoshop ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="Reactjs">
+                    <img src="img/react.svg" alt="html_icon">
+        
+                    <div class="progress_bar react ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="MUI">
+                    <img src="img/mui.svg" alt="html_icon">
+        
+                    <div class="progress_bar mui ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="Bootstrap">
+                    <img src="img/bootstrap-4.svg" alt="html_icon">
+        
+                    <div class="progress_bar bootstrap ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="NodeJS">
+                    <img src="img/nodeJSpng.png" alt="html_icon">
+        
+                    <div class="progress_bar nodejs ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="skills_box d-flex " title="ExpressJS">
+                    <img src="img/expressJSpng.png" alt="html_icon">
+        
+                    <div class="progress_bar expressjs ">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+
+    </section>
+    <section class="container-fluid sec_color  py-5" id="experiance">
+        <h1 class="text-center mt-4">Experience 💼</h1>
+        <div class="row mx-md-5 py-5">
+            <div class="col-md-6 col-12 mt-4 ">
+                <div class=" px-2 py-3 exp_card">
+                    <div class="exp_logo text-center ">
+                        <img src="img/dr-logo.png" width="220px" class="my-3" alt="Digital Rubix">
+                        <h3>Digital rubix</h3>
+                        <h5>Dec 2021- Jun 2022</h5>
+                    </div>
+                    <div class="exp_content ml-4">
+                        <h2 class="mt-2">Web Devloper</h2>
+                        <p>I worked on multipal Landing Page for Real State.</p>
+                        <h5>Responsibilites</h5>
+                        <ul class="ml-4">
+                            <li>Devlope a Landing Page</li>
+                            <li>Cleaning existing pages and devloping to newer Page</li>
+                            <li>Work on the feedback points</li>
+                            <li>Resolve any hosting problems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 mt-4">
+                <div class=" px-2 py-1 exp_card">
+                    <div class="exp_logo text-center ">
+                        <img src="img/itio-logo.png" width="220px" class="my-3" alt="Digital Rubix">
+                        <h3>Itio inovex</h3>
+                        <h5>Dec 2022- June 2023</h5>
+                    </div>
+                    <div class="exp_content ml-4">
+                        <h2 class="mt-2">Web Devloper</h2>
+                        
+                        <p>I worked on multiple Dashboard Design and Development.</p>
+                        <h5>Responsibilites</h5>
+                        <ul class="ml-4">
+                            <li>Design  Dashboard</li>
+                            <li>Develope Dashboard</li>
+                            <li>Cleaning existing App and Devloping to newer App.</li>
+                            <li>Work on the feedback points</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid  py-5" id="project">
+        <h1 class="text-center mt-4">Projects 💻</h1>
+        <div class="row mx-md-5 py-5">
+            <div class="col-md-3 col-12 mt-3">
+                <a href="https://liveweathersite.netlify.app" target="_blank">
+                    <div class="project_card ">
+                        <img src="img/weatherapp.png" width="100%" alt="weatherapp">
+                        <h2 class="mx-2 mt-3">Weather App</h2>
+                        <p class="mx-2 ">A UI For Weather app created using ReactJS and API.</p>
+                        <hr>
+                        <div class="m-2 icon">
+                            <img src="img/react.svg" title="React" alt="icon">
+                            <img src="img/api.svg" title="API" alt="icon">
+                            <img src="img/html.svg" title="HTML" alt="icon">
+                            <img src="img/css.svg" title="CSS" alt="icon">
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-12 mt-3">
+                <a href="https://simpletodolistproject.netlify.app" target="_blank">
+                    <div class="project_card ">
+                        <img src="img/TODOLIST.png" width="100%" alt="HMS">
+                        <h2 class="mx-2 mt-3">TODOLIST</h2>
+                        <p class="mx-2 ">Developed a Todolist app using React libraries.</p>
+
+                        <hr>
+                        <div class="m-2 icon">
+                            <img src="img/react.svg" title="Reat" alt="icon">
+                            <img src="img/html.svg" title="HTML" alt="icon">
+                            <img src="img/css.svg" title="CSS" alt="icon">
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-12 mt-3">
+                <a href="https://hospitalmanagementwebapp.netlify.app" target="_blank">
+                    <div class="project_card ">
+                        <img src="img/hms.png" width="100%" alt="HMS">
+                        <h2 class="mx-2 mt-3">HMS</h2>
+                        <p class="mx-2 ">A UI For Hospital Management System devloped using React.</p>
+                        <hr>
+                        <div class="m-2 icon">
+                            <img src="img/react.svg" title="React" alt="icon">
+                            <img src="img/html.svg" title="HTML" alt="icon">
+                            <img src="img/css.svg" title="CSS" alt="icon">
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-12 mt-3">
+                <a href="landing-page.html" target="_blank">
+                    <div class="project_card ">
+                        <img src="img/landingpages.png" width="100%" alt="weatherapp">
+                        <h2 class="mx-2 mt-3">Landing Pages</h2>
+                        <p class="mx-2 ">Developed multipal Landing Pages For Real State.</p>
+                        <hr>
+                        <div class="m-2 icon">
+                            <img src="img/html.svg" title="HTML" alt="icon">
+                            <img src="img/css.svg" title="CSS" alt="icon">
+                            <img src="img/js.svg" title="JavaScript" alt="icon">
+                        </div>
+
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="container-fluid sec_color  pt-5 " id="contact">
+        <h1 class="text-center mt-4">Contact me 📱</h1>
+        <div class="row mx-md-5 py-5">
+            <div class="col-md-3 col-12 mt-3">
+                <div class=" contact_box">
+                    <img src="img/call.png" width="50px" alt="Call-icon">
+                    <h3 class="mt-4">Phone</h3>
+                    <a href="tel:+91-8051379149">8051379149</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 mt-3">
+                <div class=" contact_box">
+                    <img src="img/linkedin.png" width="50px" alt="Call-icon">
+                    <h3 class="mt-4">Linkedin</h3>
+                    <a>randhir-pratap-singh-b94210213</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 mt-3">
+                <div class=" contact_box">
+                    <img src="img/email.png" width="50px" alt="Call-icon">
+                    <h3 class="mt-4">Email</h3>
+                    <a>rps85071@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 mt-3">
+                <div class=" contact_box">
+                    <img src="img/location.png" width="50px" alt="Call-icon">
+                    <h3 class="mt-4">Location</h3>
+                    <a>Noida, Uttar Pradesh</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src='index.js'></script>
+</body>
+
+
+
+</html>
