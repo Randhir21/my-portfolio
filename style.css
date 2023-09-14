@@ -357,7 +357,7 @@ section h1{
         font-size: 28px;
         font-weight: bold;
         cursor: pointer;
-        background-color: #fff;
+        color: #fff;
     }
 
     .menu_icon .close {
